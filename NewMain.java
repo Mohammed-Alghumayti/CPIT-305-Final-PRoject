@@ -12,17 +12,13 @@ public class NewMain {
         // write your code here
         // get First letter of the string
         String firstLetStr = str1.substring(0, 1);
-
         // Get remaining letter using substring
         String remLetStr = str1.substring(1);
-
         // convert the first letter of String to uppercase
         firstLetStr = firstLetStr.toUpperCase();
-
         // concantenate the first letter and remaining string
-        String firstLetterCapitalizedName = firstLetStr + remLetStr;
-
-        return firstLetterCapitalizedName;
+        String firstC = firstLetStr + remLetStr;
+        return firstC;
     }
 
     //----------------------------------------------------
