@@ -9,28 +9,6 @@ import java.util.Arrays;
 public class NewMain1 {
 
     public static void main(String[] args) throws FileNotFoundException, IOException  {
-        /*
-        FileOutputStream fos = new FileOutputStream
-        ("C:\\Users\\m7md\\OneDrive - SFC Hackathon\\Desktop\\v.txt");
-        DataOutputStream dos = new DataOutputStream(fos);
-        
-        dos.writeUTF("MOHAMED KHAMIS");
-        dos.close();
-        */
-        FileInputStream fis = new FileInputStream
-        ("C:\\Users\\m7md\\OneDrive - SFC Hackathon\\Desktop\\v.txt");
-         
-        DataInputStream dis= new DataInputStream(fis);
-        
-        System.out.println(dis.readUTF());
-       
-        fis.close();
-        
-        
-        
-       
-
-     
         
 
     }
